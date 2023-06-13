@@ -1,5 +1,5 @@
 # Invoke-ConTtyShell
-.Net Assembly loader for the [ConTtyShell](https://github.com/ricardojba/ConTtyShell)
+.Net Assembly loader for [ConTtyShell](https://github.com/ricardojba/ConTtyShell)
 
 
 Tested on:
