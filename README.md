@@ -3,7 +3,8 @@
 
 
 Tested on:
-Windows 10 22H2 x64
+* Windows 10 22H2 x64
+* Windows 11 22H2 x64
 
 Victim side usage:
 
